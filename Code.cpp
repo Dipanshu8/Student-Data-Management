@@ -15,7 +15,7 @@
         fflush(stdin);
         ch = getche();	
 	case '1':
-	
+	//This code is for basic Features
 		FILE *fp, *ft;
     	char another, choice;
 
@@ -169,7 +169,7 @@
 
        
     	}
-
+	//This code is for advance features
 		case '2':		
 	//Considering the max length of data entered (name) to be 15. 
 	char data[15]; 
