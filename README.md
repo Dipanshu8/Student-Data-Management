@@ -15,4 +15,4 @@ This mini project contains limited features, but the essential one
 
 ## Login Details
 Username : admin
-Password : pass
+Password : admin
