@@ -9,8 +9,8 @@
 
 	int main(){ 
 	char ch
-	cout << "\n \t\t\t 1. Database Management System";
-        cout << "\n \t\t\t 2. Data Management System";
+	cout << "\n \t\t\t 1. Basic Features";
+        cout << "\n \t\t\t 2. Advance Features";
         cout << "\t\t\t Select Your Choice :=> ";
         fflush(stdin);
         ch = getche();	
