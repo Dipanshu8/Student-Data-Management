@@ -6,10 +6,11 @@
 
 using namespace std; 
 class operations{
+		
 	public:
 		void add_student()
-		add_marks()
-		view_details()
+		void add_marks()
+		void view_details()
 	
 	void operations:: add_student(){
 	cout << "Enter the number of students: "; 
@@ -83,7 +84,8 @@ class operations{
 		} 
 		
 		
-	auto student_login(){
+void student_login(){
+	operations op;
 	char regno[9]; 
 		cout << "Enter your registration number: "; 
 		cin >> regno; 
@@ -116,7 +118,8 @@ class operations{
 		
 	} 
 	
-	auto faculty_login(){
+void faculty_login(){
+	operations op
 		
 		char subcode[7]; 
 		cout << "Enter your subject code: "; 
@@ -129,15 +132,16 @@ class operations{
 				<< "2. View data\nEnter option: "; 
 		cin >> option;
 		if (option == 1){
-			add_marks()
+			op.add_marks()
 		}
 		else if(option == 2){
-			view_details()
+			op.view_details()
 		}
 	}
 	
-	auto proctor_login(){
-				char procid[7]; 
+auto proctor_login(){
+	operations op
+		char procid[7]; 
 		cout << "Enter your proctor ID: "; 
 		cin >> procid; 
 			int check = 1; 
@@ -163,7 +167,7 @@ class operations{
 		if (check == 0){ 
 			cout << "No such proctor ID found!" << endl; 
 		}} 
-	auto admin_view(){
+void admin_view(){
 		char password[25]; 
 		cout << "Enter the admin password: "; 
 		cin >> password; 
@@ -224,26 +228,23 @@ int main(){
 	}
 	
 	else if (option == 2){ 
-		o1.student_login()
+		student_login()
 		
 	} 
 	
 	 
 	else if (option == 3){
-		o1.faculty_login()
+		faculty_login()
 		
 	} 
 
-	//This loop displays all the details of students under the same proctor ID. 
 
 	else if (option == 4){ 
-		o1.proctor_login
+		proctor_login
 		
 		} 
-	
-	//This loop acts as an admin view to see all the data in the file. 
 
 	else if(option == 5){ 
-		o1.admin_view()
+		admin_view()
 			} 
 }} }
