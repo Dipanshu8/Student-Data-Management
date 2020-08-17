@@ -6,6 +6,10 @@
 
 using namespace std; 
 class operations{
+	private:
+		add_student()
+		add_marks()
+		view_details()
 	
 	auto add_student(){
 	cout << "Enter the number of students: "; 
