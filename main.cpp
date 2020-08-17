@@ -6,12 +6,12 @@
 
 using namespace std; 
 class operations{
-		
+		char data;
 	public:
 		void add_student()
 		void add_marks()
 		void view_details()
-	
+};
 	void operations:: add_student(){
 	cout << "Enter the number of students: "; 
 	cin >> n; 
