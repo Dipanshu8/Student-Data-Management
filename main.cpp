@@ -6,12 +6,12 @@
 
 using namespace std; 
 class operations{
-	private:
-		add_student()
+	public:
+		void add_student()
 		add_marks()
 		view_details()
 	
-	auto add_student(){
+	void operations:: add_student(){
 	cout << "Enter the number of students: "; 
 	cin >> n; 
 	
@@ -43,7 +43,7 @@ class operations{
 		
 		outfile << proctor << endl; 
 	}}
-	auto add_marks(){
+	void operations:: add_marks(){
 		for(int i = 0;i < count_n;i++){ 
 				fstream file("Example.txt"); 
 
@@ -65,7 +65,7 @@ class operations{
 			} return 0;
 			
 		}
-	auto view_details(){
+	void operations:: view_details(){
 		
 		else if(option == 2){ 
 		infile.open("Example.txt",ios::in); 
